@@ -1,10 +1,17 @@
+/* App.css */
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 40vmin; /* Adjust size as needed */
   pointer-events: none;
+  /* Replace with Myntra's logo image */
+  background-image: url('./assets/myntra-2.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -36,3 +43,13 @@
     transform: rotate(360deg);
   }
 }
+
+/* Ensure cards are stacked vertically */
+.main {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  padding: 20px;
+  background-color: #FEEEF1
+}
+
