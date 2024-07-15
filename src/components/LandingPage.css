@@ -10,8 +10,8 @@
 
 .landing-image {
     width: 100%;
-    height: auto; /* Adjust height property */
-    max-height: 80%; /* Adjust max-height as needed */
+    height: auto; 
+    max-height: 80%; 
     object-fit: contain;
     position: absolute;
     top: 10%;
@@ -23,7 +23,7 @@
 .bid-link {
     text-decoration: none;
     position: absolute;
-    top: 65%; /* Adjust the percentage to move it down */
+    top: 65%; 
     left: 55.5%;
     transform: translate(-50%, -50%);
 }
