@@ -32,12 +32,15 @@ nav ul li {
 
 nav ul li.new {
     position: relative;
-    color: black; 
+    color: black;
+    display: flex; /* Add this line */
+    align-items: center;
+    text-decoration: none; /* Add this line to remove underline */
 }
 
 .new-badge {
-    position: absolute;
-    top: -8px; 
+    position: relative; /* Change from absolute to relative */
+    left: 5px; /* Adjust left position to control spacing */
     background-color: #ff3e6c;
     color: white;
     padding: 2px 5px;
@@ -73,4 +76,9 @@ nav ul li.new {
 .header-icon i {
     font-size: 20px;
     margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none; /* Add this line to ensure no underlining for all links */
+    color: inherit; /* Ensure links inherit color from parent elements */
 }
